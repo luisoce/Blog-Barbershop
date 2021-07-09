@@ -10789,6 +10789,7 @@ img, ul, li, footer, header, nav, section {
 @media screen and (max-width: 540px) {
   .navbar .container-fluid .navbar-collapse, .navbar .container-sm .navbar-collapse, .navbar .container-md .navbar-collapse, .navbar .container-lg .navbar-collapse, .navbar .container-xl .navbar-collapse, .navbar .container-xxl .navbar-collapse {
     padding-right: auto;
+    background-color: #121619;
   }
 }
 .navbar .container-fluid .navbar-nav .nav-item a, .navbar .container-sm .navbar-nav .nav-item a, .navbar .container-md .navbar-nav .nav-item a, .navbar .container-lg .navbar-nav .nav-item a, .navbar .container-xl .navbar-nav .nav-item a, .navbar .container-xxl .navbar-nav .nav-item a {
