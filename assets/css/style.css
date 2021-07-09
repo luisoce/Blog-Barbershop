@@ -10788,7 +10788,8 @@ img, ul, li, footer, header, nav, section {
 }
 @media screen and (max-width: 540px) {
   .navbar .container-fluid .navbar-collapse, .navbar .container-sm .navbar-collapse, .navbar .container-md .navbar-collapse, .navbar .container-lg .navbar-collapse, .navbar .container-xl .navbar-collapse, .navbar .container-xxl .navbar-collapse {
-    padding-right: auto;
+    padding-right: 20px;
+    margin-top: 45px;
     background-color: #121619;
   }
 }
