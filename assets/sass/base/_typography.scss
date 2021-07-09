@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital@0;1&family=Roboto:wght@300;400&display=swap');
+
+$roboto : 'Roboto', sans-serif;
+$playfair : 'Playfair Display', serif;
+
+$fontlight : 300;
+$fontregular : 400;
+$fontblack : 900;
+
+$font-xx-large : 70px;
+$font-x-large : 30px;
+$font-large : 18px;
+$font-medium : 16px;
+$font-small : 12px;
+
+// $font-navbar : 16;
+$color-font-navbar : #ffffff;
+$color-font-destacado : #DE8684;
+
+.text {
+    font-family: $roboto ;
+    font-weight: $fontlight;
+}

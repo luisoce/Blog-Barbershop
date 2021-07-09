@@ -1,0 +1,35 @@
+#header__section {
+    // width: 100vh;
+    // background: url(../../images/post-image.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+  .header__text {
+    color: $color-white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    .header__titulo {
+        max-width: 585px;
+        min-width: 312px;
+        max-height: 139px;
+        min-height: 128px;
+        .header__h1 {
+            font-family: $playfair;
+            font-weight: $fontblack;
+            font-style: italic;
+            
+            @media screen and (min-width: 720px){
+                font-size: $font-xx-large;
+            }
+            @media screen and (max-width: 540px){
+                font-size: $font-x-large;
+            }
+            // font-weight: $fontblack;
+        }
+
+    }
+  }
+}

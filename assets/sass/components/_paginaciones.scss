@@ -1,0 +1,18 @@
+.paginacion {
+    background-color: $color-platinum;
+    .pagination {
+        .paginacion__boton-anterior {
+            border-top-left-radius: 1rem;
+            border-bottom-left-radius: 1rem;
+            color: $color-nickel;
+        }
+        .paginacion__numero {
+            color: $color-eerie-black;
+        }
+        .paginacion__boton-siguiente {
+            border-top-right-radius: 1rem;
+            border-bottom-right-radius: 1rem;
+            color: $color-eerie-black;
+        }
+    }
+}

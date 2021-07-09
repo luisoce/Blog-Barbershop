@@ -1,0 +1,30 @@
+.articulo {
+    
+    .articulo__contenido {
+            .articulo__fecha {
+                padding-top: 73px;
+                padding-bottom: 50px;
+                font-family: $playfair;
+                font-weight: $fontregular;
+                font-size: $font-large;
+            }
+            .articulo__parrafo {
+                font-family: $roboto;
+                font-weight: $fontlight;
+                font-size: $font-medium;
+            }
+            .articulo__boton {
+                margin-top: 30px;
+                margin-bottom: 40px;
+                font-family: $roboto;
+                font-weight: $fontregular;
+                font-size: $font-medium;
+                color: #ffffff;
+                background-color: $color-nickel;
+                &:hover {
+                    border-color: $color-platinum;
+                    border-width: 2px;
+                }
+            }
+    }
+}

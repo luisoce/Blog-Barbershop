@@ -1,0 +1,47 @@
+.seccion-personal {
+  .seccion__info-person {
+    .seccion__foto {
+        // MODO RESPONSIVO, TAMAÑO EN COMPUTADOR
+      @media screen and (min-width: 720px) {
+        width: 178px;
+        height: 180px;
+        text-align: right;
+      }
+        // MODO RESPONSIVO, TAMAÑO EN CELULAR
+      @media screen and (max-width: 540px) {
+        width: 132px;
+        height: 133px;
+        text-align: center;
+      }
+    }
+    .seccion__datos {
+      .seccion__nombre {
+        font-family: $playfair;
+        font-weight: $fontblack;
+        font-style: italic;
+        font-size: $font-x-large;
+        color: $color-eerie-black;
+        text-align: center;
+      }
+      .seccion__link-email {
+        font-family: $roboto;
+        font-weight: $fontlight;
+        font-size: $font-medium;
+        color: $color-ruddy-pink;
+        text-align: center;
+        text-decoration: none;
+        &:hover {
+          color: $color-eerie-black;
+        }
+      }
+    }
+    .seccion__info {
+      p {
+        font-family: $roboto;
+        font-weight: $fontregular;
+        font-size: $font-medium;
+        color: $color-nickel;
+      }
+    }
+  }
+}

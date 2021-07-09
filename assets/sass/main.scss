@@ -1,0 +1,23 @@
+// BOOTSTRAP 5
+@import '../../node_modules/bootstrap/scss/bootstrap.scss';
+
+// ABSTRACTS: INCORPORACION DE VARIABLES UTILIZADAS EN EL PROYECTO
+@import 'abstracts/functions';
+@import 'abstracts/variables';
+
+// BASE: SE RESETEA CONFIGURACIONES Y SE INCORPORA TYPOGRAFIA
+@import 'base/bodys';
+@import 'base/reset';
+@import 'base/typography';
+
+// COMPONENTS: SE INCORPORA NAVBAR Y PAGINACIONES
+@import 'components/buttons';
+@import 'components/navbars';
+@import 'components/paginaciones';
+
+// LAYOUT: ESTILOS RELACIONADO CON LA ESTRUCTURA DEL PROYECTO
+@import 'layout/headers';
+@import 'layout/article';
+@import 'layout/section';
+@import 'layout/_footer';
+

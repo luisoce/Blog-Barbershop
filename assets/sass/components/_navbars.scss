@@ -1,0 +1,40 @@
+
+.navbar {
+    height: 96px;
+    background-color: $color-eerie-black;
+    .container-fluid {
+        img {
+            @media screen and (min-width : 720px) {
+                margin-left: 130px;
+                width: 79px;
+                height: 46px;
+            }
+            @media screen and (max-width : 540px) {
+                margin-left: 30px;
+                width: 81px;
+                height: 34px;
+            }
+        }
+        .navbar-collapse {
+            @media screen and (min-width : 720px) {
+                padding-right: 182px;
+            }
+            @media screen and (max-width : 540px) {
+                padding-right: auto;
+                // background-color: $color-eerie-black;
+            }
+        }
+        .navbar-nav {
+            .nav-item {
+                a {
+                    font-family: $roboto;
+                    font-size: $font-medium;
+                    color: $color-font-navbar;
+                }
+                .navbar__blog {
+                    color: $color-font-destacado;
+                }
+            }
+        }
+    }
+}
